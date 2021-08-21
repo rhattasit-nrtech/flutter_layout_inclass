@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_layout/align_widget_layout.dart';
 import 'package:flutter_layout/column_widget_layout.dart';
 import 'package:flutter_layout/expanded_widget_layout.dart';
 import 'package:flutter_layout/row_widget_layout.dart';
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.grey),
-      home: SizedBoxWidgetPage(),
+      home: AlignWidgetPage(),
     );
   }
 }
